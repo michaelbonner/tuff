@@ -1,103 +1,264 @@
 <html lang="en-US">
-<head>
-<title>Tuff Home Page</title>
-<script language="JavaScript" type="text/JavaScript">
-<!--
+  <head>
+    <title>Tuff Home Page</title>
+    <script language="JavaScript" type="text/JavaScript">
+      <!--
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+      function MM_swapImgRestore() { //v3.0
+        var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+      }
 
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+      function MM_preloadImages() { //v3.0
+        var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+          var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+          if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+      }
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+      function MM_findObj(n, d) { //v4.01
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+          d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+      }
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+      function MM_swapImage() { //v3.0
+        var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+         if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+      }
+      //-->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  </head>
 
-<body bgcolor="#000000" text="#000000" link="#000000" vlink="#000000" alink="#000000" onLoad="MM_preloadImages('rMIKE.jpg','rCHAD.jpg','rNILS.jpg','rRJ.jpg','rTODD.jpg','rDUSTIN.jpg','rSWEAT.jpg','rnews.jpg','rhomt.jpg')" width="100%">
-<font face="arial, helvetica, sans serif">
+  <body
+    bgcolor="#000000"
+    text="#000000"
+    link="#000000"
+    vlink="#000000"
+    alink="#000000"
+    onLoad="MM_preloadImages('rMIKE.jpg.webp','rCHAD.jpg.webp','rNILS.jpg.webp','rRJ.jpg.webp','rTODD.jpg.webp','rDUSTIN.jpg.webp','rSWEAT.jpg.webp','rnews.jpg.webp','rhomt.jpg.webp')"
+    width="100%"
+  >
+    <font face="arial, helvetica, sans serif">
+      <table width="100%">
+        <tr align="center">
+          <td><img src="tuff_green.jpg.webp" border="2" alt="Tuff Image" /></td>
+        </tr>
+      </table>
 
-<table width="100%">
-  <tr align="center">
-    <td><img src="tuff_green.jpg" border="2" alt="Tuff Image">
-  </tr>
-</table>
+      <table width="100% " border="1">
+        <tr>
+          <td align="center">
+            <a
+              href="/"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Home','','rhome.jpg.webp',1)"
+              ><img
+                src="home.jpg.webp"
+                alt="Home"
+                name="Home"
+                width="150"
+                height="50"
+                border="0"
+            /></a>
+          </td>
+          <td align="center">
+            <img src="aabout-us.jpg.webp" width="155" height="55" />
+          </td>
+          <td align="center">
+            <a
+              href="News.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('News','','rnews.jpg.webp',1)"
+            >
+              <img
+                src="NEWS.jpg.webp"
+                alt="Tuff News"
+                name="News"
+                width="150"
+                height="50"
+                border="0"
+              />
+            </a>
+          </td>
+        </tr>
+      </table>
 
-<table width="100% "border="1">
-  <tr>
-    <td align="center"><a href="/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','rhome.jpg',1)"><img src="home.jpg" alt="Home" name="Home" width="150" height="50" border="0"></a>
-    <td align="center"><img src="aabout-us.jpg" width="155" height="55">
-    <td align="center"><a href="News.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('News','','rnews.jpg',1)"><img src="NEWS.jpg" alt="Tuff News" name="News" width="150" height="50" border="0"><a href="News.htm"></a>
-  </tr>
-</table>
+      <table width="10%" border="1" align="left">
+        <tr>
+          <td>
+            <a
+              href="/Mike.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image13','','rMIKE.jpg.webp',1)"
+              ><img
+                src="MIKE.jpg.webp"
+                name="Image13"
+                width="150"
+                height="50"
+                border="0"
+            /></a>
+          </td>
+        </tr>
 
-<table width="10%" border="1" align="left">
-  <tr>
-    <td><a href="/Mike.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','rMIKE.jpg',1)"><img src="MIKE.jpg" name="Image13" width="150" height="50" border="0"></a>
-  </tr>
-  <tr>
-    <td><a href="/Chad.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','rCHAD.jpg',1)"><img src="CHAD.jpg" alt="Chad" name="Image14" width="150" height="50" border="0"></a>
-  </tr>
-  <tr>
-    <td><a href="/Nils.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','rNILS.jpg',1)"><img src="NILS.jpg" alt="Nils" name="Image12" width="155" height="55" border="0"></a>
-  </tr>
-  <tr>
-    <td><a href="/RJ.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','rRJ.jpg',1)"><img src="RJ.jpg" name="Image15" width="155" height="55" border="0"></a>
-  </tr>
-  <tr>
-    <td><a href="/Todd.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','rTODD.jpg',1)"><img src="TODD.jpg" name="Image16" width="155" height="55" border="0"></a>
-  </tr>
-  <tr>
-    <td><a href="/Dustin.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','rDUSTIN.jpg',1)"><img src="DUSTIN.jpg" name="Image17" width="155" height="55" border="0"></a>
-  </tr>
-  <tr>
-    <td align="center"><font color="#ffffff"> Honorary Member</font>
-  </tr>
-  <tr>
-    <td><a href="/Sweat.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','rSWEAT.jpg',1)"><img src="SWEAT.jpg" name="Image18" width="155" height="55" border="0"></a>
-  </tr>
-</table>
+        <tr>
+          <td>
+            <a
+              href="/Chad.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image14','','rCHAD.jpg.webp',1)"
+              ><img
+                src="CHAD.jpg.webp"
+                alt="Chad"
+                name="Image14"
+                width="150"
+                height="50"
+                border="0"
+            /></a>
+          </td>
+        </tr>
 
-<table background="greenII.jpg" width="75%" border="1">
-  <tr align="center">
-    <td><font size="-1"> <strong> <br><br><br><br><br><br><br><p> Tuff is a club started in 2003. The two original Tuff members,
-Michael Bonner and Chad McCleary decided that the other was tough. This implanted the idea for a club just for 
-tough kids, or Tuff guys as they would later be called. The two Tuff members inducted Nils Nelson into the group
-only a few weeks after its origination. After Nils, there came a Tuff guy by the name of RJ Cunningham. RJ 
-demonstrated his toughness constantly. A vote was taken and RJ was inducted into Tuff. Only a day after RJ came 
-Todd Monson. Todd also showed his toughness persistantly. Another vote was taken and Todd was inducted. Then 
-months later came the most recent addition to Tuff, Dustin Waite. Each individual represents a different aspect 
-of Tuffness. 
-<p>Being Tuff is a mental mind set, not a physical feature. Tuffness is something easily seen but seldom 
-recognized. Each member of Tuff is Tuff when he is with or without the Tuff. True Tuffness never ceases. <p>Any individual who claims to be tougher than Tuff will never be part of Tuff. Any individual who seeks to hurt an individual in Tuff will never be Tuff. Names will not be mentioned, but those who have commited these acts know who they are, and so does the Tuff. <br><br><br><br><br><br><br><br><br><br><br>
-  </tr>
-</table>
-<p>
-<br>
-<table width="100%">
-  <tr>
-    <td align="center"><img src="SmalLshekki.jpg" align="center" alt="Designed By Shekki">
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF" align="center">If you have any questions or comments please send an email to <a href="email.htm" target="_blank">thetuff6@yahoo.com</a>
-  </tr>
-</table>
-http://geocities.yahoo.com/gb/view?member=thetuff6
-</body>
+        <tr>
+          <td>
+            <a
+              href="/Nils.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image12','','rNILS.jpg.webp',1)"
+              ><img
+                src="NILS.jpg.webp"
+                alt="Nils"
+                name="Image12"
+                width="155"
+                height="55"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="/RJ.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image15','','rRJ.jpg.webp',1)"
+              ><img
+                src="RJ.jpg.webp"
+                name="Image15"
+                width="155"
+                height="55"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="/Todd.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image16','','rTODD.jpg.webp',1)"
+              ><img
+                src="TODD.jpg.webp"
+                name="Image16"
+                width="155"
+                height="55"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="/Dustin.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image17','','rDUSTIN.jpg.webp',1)"
+              ><img
+                src="DUSTIN.jpg.webp"
+                name="Image17"
+                width="155"
+                height="55"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center"><font color="#ffffff"> Honorary Member</font></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="/Sweat.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('Image18','','rSWEAT.jpg.webp',1)"
+              ><img
+                src="SWEAT.jpg.webp"
+                name="Image18"
+                width="155"
+                height="55"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+      </table>
+
+      <table background="greenII.jpg.webp" width="75%" border="1">
+        <tr align="center">
+          <td>
+            <p>
+              Tuff is a club started in 2003. The two original Tuff members,
+              Michael Bonner and Chad McCleary decided that the other was tough.
+              This implanted the idea for a club just for tough kids, or Tuff
+              guys as they would later be called. The two Tuff members inducted
+              Nils Nelson into the group only a few weeks after its origination.
+              After Nils, there came a Tuff guy by the name of RJ Cunningham. RJ
+              demonstrated his toughness constantly. A vote was taken and RJ was
+              inducted into Tuff. Only a day after RJ came Todd Monson. Todd
+              also showed his toughness persistantly. Another vote was taken and
+              Todd was inducted. Then months later came the most recent addition
+              to Tuff, Dustin Waite. Each individual represents a different
+              aspect of Tuffness.
+            </p>
+            <p>
+              Being Tuff is a mental mind set, not a physical feature. Tuffness
+              is something easily seen but seldom recognized. Each member of
+              Tuff is Tuff when he is with or without the Tuff. True Tuffness
+              never ceases.
+            </p>
+            <p>
+              Any individual who claims to be tougher than Tuff will never be
+              part of Tuff. Any individual who seeks to hurt an individual in
+              Tuff will never be Tuff. Names will not be mentioned, but those
+              who have commited these acts know who they are, and so does the
+              Tuff.
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <table width="100%">
+        <tr>
+          <td align="center">
+            <img
+              src="SmalLshekki.jpg.webp"
+              align="center"
+              alt="Designed By Shekki"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#FFFFFF" align="center">
+            If you have any questions or comments please send an email to
+            <a href="email.htm" target="_blank">thetuff6@yahoo.com</a>
+          </td>
+        </tr>
+      </table>
+      <p>http://geocities.yahoo.com/gb/view?member=thetuff6</p>
+    </font>
+  </body>
 </html>
